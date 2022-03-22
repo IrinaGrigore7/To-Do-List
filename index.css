@@ -1,0 +1,209 @@
+body{
+    background-color: #F5F5F5;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    font-size: 100px;
+    color: #EAD7D7;
+    font: Verdana;
+    margin-top: auto;
+    margin-bottom: auto;
+  
+}
+
+::placeholder {
+    color: #E6E6E6;
+    font: Verdana;
+    font-style: italic;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    width: 30%;
+    margin:0 auto;
+    padding: 1%;
+    background-color: #FEFEFE;
+    border: 1px solid #F6F6F6;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 25px 50px 0px;
+}
+
+.inputText {
+    height: 100%;
+    width: 90%;
+    box-shadow: none;
+    outline: none;
+    border-color: transparent;
+    background-color: #FEFEFE;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.chevron {
+    font-size: 100px;
+    text-align: right;
+    color: #E6E6E6;
+}
+
+.checkmark {
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 25%;
+    width: 30%;
+    margin:0 auto;
+    padding: 1%;
+    background-color: #FEFEFE;
+    border: 1px solid #F6F6F6;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 25px 50px 0px;
+}
+.content:hover .delete{
+    display: block;
+    visibility: visible;
+}
+.circle {
+    color: #E6E6E6;
+}
+
+.todo1 {
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.delete { 
+    align-items: center;
+    margin:auto;
+    margin-right: 10px;
+    color: #EFACA8;
+    visibility: hidden;
+}
+.delete:hover {
+    color: #B80202;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 32%;
+    height: 6vh;
+    margin:0 auto;
+    background-color: #FEFEFE;
+    border: 1px solid #F6F6F6;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 25px 50px 0px;
+
+}
+
+ .checkId {
+    color: #5DC2AF;
+    margin-left: -21px;
+    visibility: visible;
+    font-size: 20px;
+} 
+
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+  }
+  .todo2 {
+        font-size: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: 20px;
+    
+        color:#E6E6E6 ;
+        text-decoration: line-through;
+  }
+
+  .contentChecked {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 25%;
+    width: 30%;
+    margin:0 auto;
+    padding: 1%;
+    background-color: #FEFEFE;
+    border: 1px solid #F6F6F6;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 25px 50px 0px;
+}
+.contentChecked:hover .delete{
+    display: block;
+    visibility: visible;
+}
+
+.allButton {
+    background-color: #FEFEFE;
+    color: black;
+    border: none;
+    padding: 3px 7px;
+    margin-top: 11px;
+    margin-left: 50px;
+    height: 20px
+}
+
+.allButton:hover {
+    border: 1px solid #D07545;
+}
+
+.activeButton {
+    background-color: #FEFEFE;
+    color: black;
+    border: none;
+    padding: 3px 7px;
+    margin-top: 11px;
+    margin-left: 12px;
+    height: 20px
+}
+
+.activeButton:hover {
+    border: 1px solid #D07545;
+}
+
+.completedButton {
+    background-color: #FEFEFE;
+    color: black;
+    border: none;
+    padding: 3px 7px;
+    margin-top: 11px;
+    margin-left: 12px;
+    height: 20px
+}
+
+.completedButton:hover {
+    border: 1px solid #D07545;
+}
+
+#clear {
+    visibility: hidden;
+    background-color: #FEFEFE;
+    color: black;
+    border: none;
+    padding: 3px 7px;
+    margin-top: 11px;
+    margin-left: 25px;
+    height: 20px
+   
+}
